@@ -6,6 +6,7 @@
         {
             "type": "qemu",
             "communicator": "none",
+            "qemu_binary": "/usr/libexec/qemu-kvm",
             "iso_url": "{{user `rhel8_iso_path`}}",
             "iso_checksum": "none",
             "boot_command": [
